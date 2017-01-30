@@ -1,0 +1,17 @@
+
+*{
+	font-family: 'Sofia', cursive;
+}
+hr{
+	border: 1px solid black;
+}
+/*.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-md-4{
+	width: 50%;
+}*/
+body{
+	background-color: #E1E1E1;
+}
