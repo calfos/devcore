@@ -1,0 +1,110 @@
+.premier{
+	border-radius: 50px;
+}
+.top_header{
+	background-color: #ED1127;
+}
+span{
+	margin-left: 500px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+}
+.league{
+	margin-left: 0px;
+
+}
+.under{
+	margin-right: 300px;
+}
+.nav{
+	margin-left: 30px;
+	padding-right: 100px;
+}
+
+li.player,.under{
+	font-size: 18px;
+	color: white;
+	padding-left: 200px;
+}
+
+@media screen and (min-width:350px) and (max-width: 500px){
+	span{
+		margin-left: 80px;
+		padding: 10px;
+		color: white;
+		font-size: 16px;
+	}
+	li.player,.under{
+		font-size: 16px;
+		color: white;
+		padding-left: 100px;
+	}
+	ul{
+		display: none;
+	}
+}
+@media screen and (min-width:500px) and (max-width: 750px){
+
+	span{
+		margin-left: 220px;
+		padding: 10px;
+		color: white;
+		font-size: 16px;
+	}
+	li.player,.under{
+		font-size: 16px;
+		color: white;
+		padding-left: 100px;
+		margin-top: 10px;
+		}
+
+		ul{
+			display: none;
+		}
+		
+	}
+
+@media screen and (min-width:750px) and (max-width: 1000px){
+
+		span{
+			margin-left: 350px;
+			padding: 10px;
+			color: white;
+			font-size: 16px;
+		}
+		li.player,.under{
+			font-size: 16px;
+			color: white;
+			padding-left: 100px;
+			margin-top: 10px;
+		}
+
+		.nav{
+			margin-left: 30px;
+			padding-right: 100px;
+		}
+
+	}
+
+	/*@media screen and (max-width: 500px){
+	table,thead,tbody,th,td,tr{
+		display:block;
+	}
+	thead tr{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	td{
+		position: relative;
+		padding-left: 50%;
+	}
+	td:before{
+		position: absolute;
+		left: 6px;
+		content: attr(data-th);
+		font-weight: bold;
+	}
+
+}*/
